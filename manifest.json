@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "SimpleTabSwap",
+	"version": "1.0",
+	"description": "タブ状態のスワップイン･スワップアウト",
+	"browser_action": {
+		"default_icon": "icon/icon.png",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"tabs",
+		"storage"
+	],
+	"icons": {
+		"128": "icon/icon.png"
+	}
+}
