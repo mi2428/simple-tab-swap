@@ -17,7 +17,9 @@ $(function(){
 			var localStorage = {
 				tabs: tabArray
 			};
-			chrome.storage.sync.set(localStorage);
+			chrome.storage.sync.set(localStorage,function(){
+				alert("保存しました")
+			});
 		});
 	});
 });
